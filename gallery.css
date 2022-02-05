@@ -1,0 +1,271 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    grid-gap: 133px;
+    display: grid;
+    grid-template-areas: 
+    'l l r r'
+    'l l r r';
+}
+.left{
+    position: fixed;
+    grid-area: l;
+    border-right: 2px solid grey;
+    /* border: 1px solid red; */
+    height: 92.5%;
+    width: 220px;
+    padding: 22px;
+    display: grid;
+    grid-template-areas: 
+    'i i i i'
+    'n n n n'
+    's s s s'
+    'l l l l'
+    'i2 i2 i2 i2';
+    
+}
+.imglogo{
+    grid-area: i;
+    margin: -20px 0px 0px 10px;
+
+}
+.name{
+    grid-area: n;
+    font-family: 'Glory', sans-serif;
+    margin: -13% 0px 0px 44px;
+    font-size: 30px;
+
+}
+.sub{
+    grid-area: s;
+    font-size: 13px;
+    margin: -8% 0px 0px 67px;
+}
+.list{
+    /* border: 1px solid rosybrown; */
+    grid-area: l;
+    height: 198px;
+    margin: 31px 0px 0px 0px;
+
+}
+.list ul li{
+    list-style: none;
+    line-height: 32px;
+}
+.list ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Glory', sans-serif;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+
+}
+.list ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.imgs{
+    grid-area: i2;
+    /* border: 1px solid orange; */
+    height: 20px;
+    width: 200px;
+    margin: 41px 0px 0px 20px;
+
+}
+.imgs i{
+    font-size: 21px;
+    cursor: pointer;
+    margin: 0px 10px 0px 10px;
+
+
+
+}
+.right{
+
+        grid-area: r;
+        /* border: 1px solid pink; */
+        min-height:100vh; 
+        width: 935px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        display: grid;
+        grid-template-areas: 
+        'h h h h'
+        'abo abo abo abo'
+        'pics pics pics pics'
+        'ft ft ft ft';
+}
+.head{
+    text-decoration: 1px underline;
+    text-align: center;
+    font-size: 35px;
+    width: 935px;
+    font-style: italic;
+
+/* border: 2px solid red; */
+grid-area: h;
+}
+.abo{
+    font-size: 15px;
+    text-align: center;
+
+    width: 935px;
+
+/* border: 2px solid yellowgreen; */
+grid-area: abo;
+}
+
+
+.pics{
+    margin: 30px 0px 0px 0px;
+    grid-row-gap: 29px;
+    grid-column-gap: 21px;
+    /* border: 2px solid yellow; */
+    grid-area: pics;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'im1 im1 im2 im2'
+    'im3 im3 im4 im4'
+    'im5 im5 im6 im6'
+    'im7 im7 im8 im8' 
+    'im9 im9 im10 im10' ;
+}
+.image1{
+    /* border: 2px solid olivedrab; */
+grid-area: im1;
+height: 550px;
+width: 450px;
+}
+.image1 img{
+width: 100%;
+height: 100%;
+}
+.image2{
+ 
+grid-area: im2;
+/* border: 2px solid olivedrab; */
+
+height: 550px;
+width: 450px;
+    
+}
+.image2 img{
+    width: 100%;
+height: 100%;
+}
+ .image3{
+    /* border: 2px solid olivedrab; */
+
+    height: 550px;
+width: 450px;
+grid-area: im3;
+    
+}
+.image3 img{
+    width: 100%;
+height: 100%;
+}
+.image4{
+    /* border: 2px solid olivedrab; */
+
+    height: 550px;
+width: 450px;
+grid-area: im4;
+    
+}
+.image4 img{
+    width: 100%;
+    height: 100%;
+} 
+.image5{
+
+grid-area: im5;
+/* border: 2px solid olivedrab; */
+
+height: 500px;
+width: 450px;
+    
+}
+.image5 img{
+    width: 100%;
+    height: 100%;
+}
+.image6{
+    /* border: 2px solid olivedrab; */
+
+    height: 500px;
+width: 450px;
+grid-area: im6;
+    
+}
+.image6 img{
+    width: 100%;
+    height: 100%;
+}
+.image7{
+    /* border: 2px solid olivedrab; */
+
+    height: 500px;
+width: 450px;
+grid-area: im7;
+    
+}
+.image7 img{
+    width: 100%;
+    height: 100%;
+}
+.image8{
+    /* border: 2px solid olivedrab; */
+
+    height: 500px;
+width: 450px;
+grid-area: im8;
+    
+}
+.image8 img{
+    width: 100%;
+    height: 100%;
+}
+.image9{
+    /* border: 2px solid olivedrab; */
+
+    height: 500px;
+width: 450px;
+grid-area: im9;
+    
+}.image9 img{
+    width: 100%;
+    height: 100%;
+}
+.image10{
+    /* border: 2px solid olivedrab; */
+
+    height: 500px;
+width: 450px;
+grid-area: im10;
+    
+}
+.image10 img{
+    width: 100%;
+    height: 100%;
+}
+.ft {
+    width: 105.5%;
+    border: 2px solid black;
+    margin: 39px 0px 0px -31px;
+    grid-area: ft;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+#abhi{
+    font-size: 30px;
+}
+
+ 
