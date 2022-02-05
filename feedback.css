@@ -1,0 +1,226 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    grid-gap: 133px;
+    display: grid;
+    grid-template-areas: 
+    'l l r r'
+    'l l r r';
+}
+.left{
+    position: fixed;
+    grid-area: l;
+    border-right: 2px solid grey;
+    /* border: 1px solid red; */
+    height: 92.5%;
+    width: 220px;
+    padding: 22px;
+    display: grid;
+    grid-template-areas: 
+    'i i i i'
+    'n n n n'
+    's s s s'
+    'l l l l'
+    'i2 i2 i2 i2';
+    
+}
+.imglogo{
+    grid-area: i;
+    margin: -20px 0px 0px 10px;
+
+}
+.name{
+    grid-area: n;
+    font-family: 'Glory', sans-serif;
+    margin: -13% 0px 0px 44px;
+    font-size: 30px;
+
+}
+.sub{
+    grid-area: s;
+    font-size: 13px;
+    margin: -8% 0px 0px 67px;
+}
+.list{
+    /* border: 1px solid rosybrown; */
+    grid-area: l;
+    height: 198px;
+    margin: 31px 0px 0px 0px;
+
+}
+.list ul li{
+    list-style: none;
+    line-height: 32px;
+}
+.list ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Glory', sans-serif;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+
+}
+.list ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.imgs{
+    grid-area: i2;
+    /* border: 1px solid orange; */
+    height: 20px;
+    width: 200px;
+    margin: 41px 0px 0px 20px;
+
+}
+.imgs i{
+    font-size: 21px;
+    cursor: pointer;
+    margin: 0px 10px 0px 10px;
+}
+.right{
+
+    grid-area: r;
+    /* border: 1px solid pink; */
+    min-height:100vh; 
+    width: 935px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-areas: 
+    'h h h h'
+    'abo abo abo abo'
+    'abop abop abop abop'
+    'pr1 pr1 pr1 pr1'
+    'abop2 abop2 abop2 abop2'
+    'form form form form';
+}
+.head{
+    text-decoration: 1px underline;
+    text-align: center;
+    font-size: 35px;
+    width: 935px;
+    font-style: italic;
+
+/* border: 2px solid red; */
+grid-area: h;
+}
+.abo{
+    font-size: 15px;
+    text-align: center;
+
+    width: 935px;
+
+/* border: 2px solid yellowgreen; */
+grid-area: abo;
+}
+.abop{
+    display: inline-block;
+    margin-top: 10%;
+    /* border: 2px solid red; */
+    grid-area: abop;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 3px;
+    border-bottom: 1px dashed black;
+}
+.pr1{
+    margin-top: 30px;
+    position: relative;
+    height: 100px;
+    grid-area: pr1;
+/* border: 2px solid black; */
+
+}
+.imagedp {
+    display: inline-block;
+    grid-area: imgdp;
+    width: 97px;
+    height: 98px;
+    border-radius: 50%;
+    /* border: 1px solid teal; */
+}
+.imagedp img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+
+}
+.names {
+    top: 0px;
+    left: 110px;
+    position: absolute;
+    /* display: inline-block; */
+    width: 200px;
+    height: 18px;
+    grid-area: names;
+    font-size: 18px;
+    /* border: 1px solid teal; */
+}
+.para {
+    top: 31px;
+    left: 109px;
+    position: absolute;
+    grid-area: para;
+    width: 70%;
+    /* border: 1px solid teal; */
+}
+.abop2{
+    display: inline-block;
+    margin-top: 10%;
+    /* border: 2px solid red; */
+    grid-area: abop2;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 3px;
+    border-bottom: 1px dashed black;
+}
+.form{
+    height: 120px;
+    margin: 30px 0px 0px 0px;
+    /* text-align: center; */
+    /* border: 2px solid orchid; */
+    grid-area: form;
+    line-height: 30px;
+}
+.na input{
+    
+    width: 200px;
+}
+.feed input{
+    width: 200px;
+
+    height: 39px;
+}
+.bu{
+    border-radius: 50%;
+    width: 150px;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    height: 30px;
+    margin: 10px 0px 0px 24px;
+    /* border: 2px solid mediumpurple; */
+/* grid-area: bu; */
+cursor: pointer;
+}
+.bu:hover{
+    background-color: rgb(27, 23, 23);
+    color: whitesmoke;
+}
+.ft {
+    width: 105.5%;
+    /* border: 2px solid black; */
+    margin: 39px 0px 0px -31px;
+    grid-area: ft;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+#abhi{
+    font-size: 30px;
+}
